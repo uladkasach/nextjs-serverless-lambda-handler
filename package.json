@@ -1,6 +1,6 @@
 {
   "name": "nextjs-serverless-lambda-handler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple interoperability wrapper for deploying a Next.js server with AWS Lambda and API Gateway",
   "author": "UladKasach @uladkasach",
   "license": "MIT",
