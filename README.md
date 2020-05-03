@@ -1,5 +1,8 @@
 # next.js serverless lambda handler
 
+![ci_on_commit](https://github.com/uladkasach/nextjs-serverless-lambda-handler/workflows/ci_on_commit/badge.svg)
+![deploy_on_tag](https://github.com/uladkasach/nextjs-serverless-lambda-handler/workflows/deploy_on_tag/badge.svg)
+
 A simple interoperability wrapper for deploying a Next.js server with AWS Lambda and API Gateway
 
 ## Why:
