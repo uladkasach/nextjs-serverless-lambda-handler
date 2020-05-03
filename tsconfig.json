@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "strictPropertyInitialization": false,
+    "lib": ["es2017", "es7", "esnext.asynciterable"]
+  },
+  "filesGlob": ["src/**/*.ts"],
+  "exclude": [
+    "dist",
+    "coverage",
+    "node_modules",
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
