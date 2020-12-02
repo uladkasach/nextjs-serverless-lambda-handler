@@ -1,4 +1,4 @@
-import { APIGatewayEvent } from 'aws-lambda';
+import { APIGatewayEvent } from 'aws-lambda'; // eslint-disable-line import/no-extraneous-dependencies
 
 export const getBodyFromApiGatewayEvent = ({ apiGatewayEvent: event }: { apiGatewayEvent: APIGatewayEvent }) => {
   if (!event.body) return null;

@@ -1,4 +1,4 @@
-import { APIGatewayEvent } from 'aws-lambda';
+import { APIGatewayEvent } from 'aws-lambda'; // eslint-disable-line import/no-extraneous-dependencies
 import http, { IncomingMessage } from 'http';
 import url from 'url';
 
